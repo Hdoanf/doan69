@@ -90,7 +90,7 @@
         });
 
         videoModal2.addEventListener('shown.bs.modal', function () {
-            videoPlayer.play();
+            videoPlayer2.play();
         });
 
         videoModal.addEventListener('hidden.bs.modal', function () {
@@ -99,8 +99,8 @@
         });
 
         videoModal2.addEventListener('hidden.bs.modal', function () {
-            videoPlayer.pause();
-            videoPlayer.currentTime = 0;
+            videoPlayer2.pause();
+            videoPlayer2.currentTime = 0;
         });
 
         videoPlayer.addEventListener('ended', function () {
